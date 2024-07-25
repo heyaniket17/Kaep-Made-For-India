@@ -1,0 +1,74 @@
+/* Your existing styles for the website */
+body{
+    background-color: #6c14d0;
+    background: url(image/loginbg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+section nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+section nav .logo{
+    font-size: 15px;
+    color: #c72092;
+    margin: 0px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -4%;
+}
+section nav .logo span{
+    color: #6c14d0;
+    text-decoration: underline;
+}
+
+section nav ul{
+    list-style: none;
+}
+
+section nav ul li{
+    display: inline-block;
+    margin: 5px 15px;
+}
+
+section nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+section nav ul li a:hover{
+    color: #c72092;
+}
+
+.shopping-cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.cart-items {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.cart-total {
+    margin-top: 10px;
+    text-align: right;
+}
+
+/* Other styles as needed */
+
+
